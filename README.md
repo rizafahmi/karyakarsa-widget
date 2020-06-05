@@ -11,3 +11,8 @@ Tambahkan baris kode berikut di website kamu ditambah URL ke halaman donasi kary
 ```
 
 ![karyakarsa.gif](karyakarsa.gif)
+
+
+## Donasi
+
+Jangan lupa jika dirasa bermanfaat, boleh [traktir saya secangkir kopi](https://karyakarsa.com/checkout/207).
