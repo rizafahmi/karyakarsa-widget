@@ -21,7 +21,8 @@
   iframe.style =
     'background-color: rgb(255, 255, 255); position: fixed; margin: 0px; padding: 0px; right: 18px; bottom: 98px; width: 400px; max-width: 500px; height: calc(100% - 140px); box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 16px; z-index: 999;border:transparent;border-radius:3px;visibility:hidden;';
 
-  a.addEventListener('click', function() {
+  a.addEventListener('click', function(e) {
+    e.preventDefault();
     const { visibility } = iframe.style;
     if (visibility !== 'visible') {
       iframe.src = src;
